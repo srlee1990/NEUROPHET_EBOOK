@@ -196,7 +196,7 @@ text-align:justify;
 	font-weight: 700;
 	letter-spacing: 0.02em;
 	text-transform: none;
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Roboto', serif;
 	margin-bottom: 20px;
 }
 .scroll-block {
@@ -595,7 +595,7 @@ p.lead
     font-size: 0.93em;
     font-weight: 700;
     text-transform: capitalize;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto', serif;
     margin-bottom: 5px;
     
 }
@@ -620,7 +620,7 @@ p.lead
 }
 
 .our-team h4  {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto', serif;
    }
 
 .our-team h4,.our-team h5
@@ -654,7 +654,7 @@ p.lead
 .subheading h4 {
 	color: #ffffff;
 	font-style: italic;
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Roboto', serif;
 }
 .intermediate-container .heading h2 {
 	font-size: 40px;
@@ -755,7 +755,7 @@ p.lead
 	margin-left:90px;
 }
 .nim-service .nim-service-detail h4 {
-font-family: 'Roboto Slab', serif;
+font-family: 'Roboto', serif;
 }
 .nim-service .nim-service-detail p {
 	color: #9aa7af;
