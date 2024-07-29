@@ -41,7 +41,7 @@ VERSION : 1.1
 	IMPORT FONTS
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 @import url('http://fonts.googleapis.com/css?family=Roboto:400,900italic,900,700italic,700,500italic,500,400italic,300italic,300,100italic,100');
-@import url('http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800');
+@import url('http://fonts.googleapis.com/css?family=Roboto:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800');
 
 
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -74,7 +74,7 @@ body {
 	background-color: #000;
 	overflow-x: hidden;
 	line-height: 1.5;
-        font-family: 'Lato', sans-serif;
+        font-family: 'Roboto', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	
@@ -101,7 +101,7 @@ h5{
 	line-height: 20px;
 }
 p{
-font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
 font-size:0.93em;
 }
 
@@ -130,7 +130,7 @@ p.intro{
 	font-size:0.9em;
 	margin: 14px 0;
 	line-height: 24px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 .relative
 {
@@ -217,7 +217,7 @@ h1, h2, h3, h4, h5, h6,
 ------------------------------*/
 .btn {
     font-size: 14px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     border-radius: 0;
 }
