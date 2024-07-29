@@ -415,7 +415,7 @@ color:#fff;
 
 .main-heading
 {
-   background: url(../images/main.jpg) center center no-repeat;
+   background: url(../images/main.gif) center center no-repeat;
 	background-size:cover;
 	background-attachment: fixed;
 	color: #cfcfcf;
@@ -558,7 +558,7 @@ p.lead
     position: absolute;
     top: 0;
     left: 0;
-    background:#222 url("../images/plus.png") center center no-repeat;
+    background:#fff url("../images/plus.png") center center no-repeat;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
     opacity: 0;
