@@ -69,12 +69,12 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,hr,t
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 body {
 	color: #fff;
-	font: normal 16px "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: normal 16px "Roboto", "Roboto", Roboto, Roboto, Roboto;
 	font-weight: 300;
 	background-color: #000;
 	overflow-x: hidden;
 	line-height: 1.5;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Roboto', Roboto;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	
@@ -101,7 +101,7 @@ h5{
 	line-height: 20px;
 }
 p{
-font-family: 'Roboto', sans-serif;
+font-family: 'Roboto', Roboto;
 font-size:0.93em;
 }
 
@@ -130,7 +130,7 @@ p.intro{
 	font-size:0.9em;
 	margin: 14px 0;
 	line-height: 24px;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', Roboto;
 }
 .relative
 {
@@ -209,7 +209,7 @@ text-align:justify;
 ------------------------------*/
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', Roboto;
 	margin: 0;
 }
 
@@ -217,7 +217,7 @@ h1, h2, h3, h4, h5, h6,
 ------------------------------*/
 .btn {
     font-size: 14px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', Roboto;
     text-transform: uppercase;
     border-radius: 0;
 }
