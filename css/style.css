@@ -578,7 +578,7 @@ p.lead
 }
 
 .work-desc{
-    width: 100%;
+    width: relative;
     padding: 10px 20px;
     border-top: none;
     -webkit-border-bottom-right-radius: 5px;
