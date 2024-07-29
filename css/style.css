@@ -41,7 +41,7 @@ VERSION : 1.1
 	IMPORT FONTS
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 @import url('http://fonts.googleapis.com/css?family=Roboto:400,900italic,900,700italic,700,500italic,500,400italic,300italic,300,100italic,100');
-@import url('http://fonts.googleapis.com/css?family=Roboto:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800');
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800');
 
 
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -69,12 +69,12 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,p,blockquote,hr,t
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 body {
 	color: #fff;
-	font: normal 16px "Roboto", "Roboto", Roboto, Roboto, Roboto;
+	font: normal 16px "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 300;
 	background-color: #000;
 	overflow-x: hidden;
 	line-height: 1.5;
-        font-family: 'Roboto', Roboto;
+        font-family: 'Lato', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
 	
@@ -101,7 +101,7 @@ h5{
 	line-height: 20px;
 }
 p{
-font-family: 'Roboto', Roboto;
+font-family: 'Open Sans', sans-serif;
 font-size:0.93em;
 }
 
@@ -130,7 +130,7 @@ p.intro{
 	font-size:0.9em;
 	margin: 14px 0;
 	line-height: 24px;
-	font-family: 'Roboto', Roboto;
+	font-family: 'Open Sans', sans-serif;
 }
 .relative
 {
@@ -196,7 +196,7 @@ text-align:justify;
 	font-weight: 700;
 	letter-spacing: 0.02em;
 	text-transform: none;
-	font-family: 'Roboto', serif;
+	font-family: 'Roboto Slab', serif;
 	margin-bottom: 20px;
 }
 .scroll-block {
@@ -209,7 +209,7 @@ text-align:justify;
 ------------------------------*/
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6{
-	font-family: 'Roboto', Roboto;
+	font-family: 'Roboto', sans-serif;
 	margin: 0;
 }
 
@@ -217,7 +217,7 @@ h1, h2, h3, h4, h5, h6,
 ------------------------------*/
 .btn {
     font-size: 14px;
-    font-family: 'Roboto', Roboto;
+    font-family: 'Source Sans Pro', sans-serif;
     text-transform: uppercase;
     border-radius: 0;
 }
@@ -443,7 +443,7 @@ color:#fff;
 
 .main-heading >.overlay
 {
-    height: 250px;
+    height: 750px;
 }
 p.lead
 {
@@ -578,7 +578,7 @@ p.lead
 }
 
 .work-desc{
-    width: relative;
+    width: 100%;
     padding: 10px 20px;
     border-top: none;
     -webkit-border-bottom-right-radius: 5px;
@@ -595,7 +595,7 @@ p.lead
     font-size: 0.93em;
     font-weight: 700;
     text-transform: capitalize;
-    font-family: 'Roboto', serif;
+    font-family: 'Roboto Slab', serif;
     margin-bottom: 5px;
     
 }
@@ -620,7 +620,7 @@ p.lead
 }
 
 .our-team h4  {
-    font-family: 'Roboto', serif;
+    font-family: 'Roboto Slab', serif;
    }
 
 .our-team h4,.our-team h5
@@ -654,7 +654,7 @@ p.lead
 .subheading h4 {
 	color: #ffffff;
 	font-style: italic;
-	font-family: 'Roboto', serif;
+	font-family: 'Roboto Slab', serif;
 }
 .intermediate-container .heading h2 {
 	font-size: 40px;
@@ -755,7 +755,7 @@ p.lead
 	margin-left:90px;
 }
 .nim-service .nim-service-detail h4 {
-font-family: 'Roboto', serif;
+font-family: 'Roboto Slab', serif;
 }
 .nim-service .nim-service-detail p {
 	color: #9aa7af;
