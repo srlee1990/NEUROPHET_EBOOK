@@ -350,68 +350,9 @@ div.preloader {
 
 /*	RAMSH-STYLE STARTS HERE
 ------------------------------*/
- 
-/* Navigation */
-.nim-menu{
-	padding: 10px;
-	transition: all 0.8s;
-        background:#000;
-        border-bottom:none;
-        transition:all 0.4s ease-in;
-        -webkit-transition:all 0.4s ease-in;
-        -moz-transition:all 0.4s ease-in;
-        -ms-transition:all 0.4s ease-in;
-         
-}
-
-.nim-menu a.navbar-brand {
-text-transform: uppercase;
-font-size: 1.5em;
-font-weight: 900;
-color:#fff;
-}
-
-
-
-.nim-menu.navbar-default .navbar-nav > li > a {
-	
-	color: #fafafa;
-	letter-spacing: 1px;
-        font-size:.73em;
-       //text-shadow:1px 0px rgba(0,0,0,0.5);
-}
-
-.navbar-default .navbar-nav > .active > a, 
-.navbar-default .navbar-nav > .active > a:hover, 
-.navbar-default .navbar-nav > .active > a:focus {
-	
-	background-color: transparent;
-	font-weight: 700;
-        
-}
-
-.navbar-toggle {
-	border-radius:20%;
-        transition:all 1s;
-        
-	}
-.navbar-default .navbar-toggle:hover, 
-.navbar-default .navbar-toggle:focus {
-	box-shadow:2px 2px 3px 3px rgba(0,0,0,0.4);
-        -webkit-box-shadow:2px 2px 3px 3px rgba(0,0,0,0.4);
-        -moz-box-shadow:2px 2px 3px 3px rgba(0,0,0,0.4);
-        -ms-box-shadow:2px 2px 3px 3px rgba(0,0,0,0.4);
-	}
-.navbar-default .navbar-toggle:hover>.icon-bar {
-	background-color: #FFF;
-	}
-        
-        
-       
+   
 /*	MAIN HEADING
 ------------------------------*/
-
-
 
 .main-heading
 {
@@ -419,7 +360,6 @@ color:#fff;
 	background-size:cover;
 	background-attachment: fixed;
 	color: #cfcfcf;
-        margin-top:80px;
 }
 
 .overlay{
@@ -438,12 +378,12 @@ color:#fff;
 
 .overlay > .container
 {
-    padding:170px 0px;    
+    padding:100px 0px;    
 }
 
 .main-heading >.overlay
 {
-    height: 750px;
+    height: 500px;
 }
 p.lead
 {
@@ -459,7 +399,7 @@ p.lead
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
 	position: absolute;
-	top: 30%;
+	top: 40%;
 	left: 0;
 	right: 0;
 }
@@ -493,43 +433,51 @@ p.lead
 /*----------------ABOUT US
 
 -------------------------------------------------------*/
-.aboutus>.container
-{
-    padding:60px 0px;
-  
-}
-
-
-
- .about-box {
-	overflow: hidden;
-	clear: both;
-	margin-bottom: 30px;
-}
-.about-box i {
-	font-size: 36px;
-}
-.about-box .about-line {
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
-}
-.about-box h4
-{
-    padding-top:10px;
-}
-.about-box p{
-	font-size:0.93em;
-        padding-top:10px;
-}
-
-/*----------------OUR WORKS
-
--------------------------------------------------------*/
 
 .recent-works>.container
 {
     padding:70px 0px;
 }
+
+.focus-in-contract-bck {
+  -webkit-animation: focus-in-contract-bck 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+          animation: focus-in-contract-bck 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+      }
+              @-webkit-keyframes focus-in-contract-bck {
+                0% {
+                  letter-spacing: 1em;
+                  -webkit-transform: translateZ(300px);
+                          transform: translateZ(300px);
+                  -webkit-filter: blur(12px);
+                          filter: blur(12px);
+                  opacity: 0;
+                }
+                100% {
+                  -webkit-transform: translateZ(12px);
+                          transform: translateZ(12px);
+                  -webkit-filter: blur(0);
+                          filter: blur(0);
+                  opacity: 1;
+                }
+              }
+              @keyframes focus-in-contract-bck {
+                0% {
+                  letter-spacing: 1em;
+                  -webkit-transform: translateZ(300px);
+                          transform: translateZ(300px);
+                  -webkit-filter: blur(12px);
+                          filter: blur(12px);
+                  opacity: 0;
+                }
+                100% {
+                  -webkit-transform: translateZ(12px);
+                          transform: translateZ(12px);
+                  -webkit-filter: blur(0);
+                          filter: blur(0);
+                  opacity: 1;
+                }
+              }
+
 
 .item-img-wrap{
     position: relative;
